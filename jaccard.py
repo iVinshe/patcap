@@ -104,9 +104,9 @@ if __name__=='__main__':
     else:
         print("""
 Usage:
-    python vincent.py <filename> -- computes pairwise distances
+    python jaccard.py <filename> -- computes pairwise distances
       among all tag lines in this one file
-    python vincent.py <filename1> <filename2> -- computes pairwise
+    python jaccard.py <filename1> <filename2> -- computes pairwise
       distances for every line in filename1 against every line in
       filename2
 """)
